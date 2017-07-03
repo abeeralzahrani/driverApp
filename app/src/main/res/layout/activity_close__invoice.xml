@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itshareplus.googlemapdemo.Close_Invoice"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:text="Invoice Number 0/0"
+        android:padding="5dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/ErrorTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/invoice_URL_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Survey URL : " />
+
+    <TextView
+        android:id="@+id/invoice_URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+
+        android:text="Http://www.survey.alkaffay.com"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/SurveyCodeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Survey Code :"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/SurveyCodeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Enter the code from the customer " />
+
+    <CheckBox
+        android:id="@+id/refusedCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:hint="Customer refused to full out the survey" />
+
+    <Button
+        android:id="@+id/closeInvoiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Close Invoice" />
+</LinearLayout>

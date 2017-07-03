@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">القفاري سائق</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_Main">Main</string>
+    <string name="title_activity_search_result">Search result</string>
+    <string name="title_activity_invoice_details">Invoice details</string>
+    <!-- Strings related to login -->
+    <string name="prompt_customerID">الرقم الوظيفي</string>
+    <string name="prompt_password">الرقم السري </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="forget_password">forget password</string>
+    <array name="cities">
+        <item>riyadh</item>
+        <item>jeddah</item>
+    </array>
+    <string name="title_activity_mene_activity">mene_activity</string>
+    <string name="title_activity_main_">Main_Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_nav">MainActivity_nav</string>
+    <string name="note_invoiceDelivered">This invoice is delivered </string>
+
+    <!-- messages -->
+    <string name="error">some error accrues !!</string>
+    <string name="input_error_close_invoice">* You should enter either the survey code or click on refused </string>
+     <string name="input_error_close_invoice_code">* The code invoice code is not correct </string>
+    <string name="finish_trip_message">Thank you for finishing your trip for today </string>
+  <string name="no_invoices_message">There are no invoices to assign </string>
+
+
+    <!--Buttons -->
+    <string name="sortButton">sort the invoices </string>
+    <string name="start_drivingButton">Start Driving </string>
+    <string name="assignButton">Assign </string>
+
+
+    <!-- titles -->
+    <string name="logout">logout_title</string>
+    <string name="submit_title">submit</string>
+    <string name="unsorted_invoices_title">Unsorted  Invoices </string>
+    <string name="sorted_invoices_title">Sorted  Invoices </string>
+    <string name="report_title">Report for close invoices </string>
+
+    <!-- spinner title -->
+    <string name="spinner_title">Assign Invoices to Driver </string>
+
+
+    <!-- Pages title -->
+    <string name="search_page">Search Page</string>
+    <string name="search_result_page">Search Result Page</string>
+
+
+</resources>
